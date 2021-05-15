@@ -7,3 +7,5 @@ Variables and Let
 Const and Variables
 Booleans
 Naming Conventions
+Strings
+Indices and Length
