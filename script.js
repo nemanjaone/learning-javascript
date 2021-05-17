@@ -1,7 +1,5 @@
 console.log("Hello!");
 
-//let rating = 3;
-
 let rating = 52;
 
 if (rating === 2) {
@@ -9,7 +7,7 @@ if (rating === 2) {
 }
 
 else if (rating === 3) {
-    console.log("True!")
+    console.log("True!");
 }
 
 else if (rating === 5) {
