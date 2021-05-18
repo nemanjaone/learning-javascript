@@ -35,4 +35,8 @@ switch (day) {
         break;
 }
 
+//Array Practice
+let lottoNumbers = [1, 2, 3, 4, 5, 6];
+console.log(lottoNumbers[4]);
+
 console.log("Goodbye!");

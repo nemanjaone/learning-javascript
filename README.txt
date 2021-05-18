@@ -24,3 +24,5 @@ how to run js files from html
 5/18/21
 Logical Operators
 (&& || !)
+Arrays - Basics
+Arrays - Push Pop, Shift unshift, slice splice, multi dimensional
