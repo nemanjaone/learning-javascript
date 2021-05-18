@@ -78,5 +78,15 @@ console.log("cat2 index: " + cats.indexOf('cat2'));
 lotrNames.reverse();
 console.log(lotrNames);
 
+//slice array
+let colors = ['blue', 'red', 'yellow', 'orange', 'purple', 'juicewrld'];
+let rapper = colors.slice(5);
+console.log(rapper);
+
+//splice array
+let colorsS = colors.splice(1, 1);
+console.log("colors: " + colors);
+console.log("remove: " + colorsS);
+
 
 console.log("Goodbye!");
