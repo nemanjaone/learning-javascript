@@ -88,5 +88,10 @@ let colorsS = colors.splice(1, 1);
 console.log("colors: " + colors);
 console.log("remove: " + colorsS);
 
+//array within array
+const gameBoard = [['x', 'o', 'x'], ['x', 'o', 'x'], ['x', 'o', 'x']];
+console.log(gameBoard);
+console.log(gameBoard[1][1]);
+
 
 console.log("Goodbye!");
