@@ -57,4 +57,18 @@ console.log(lotrNames);
 lotrNames.shift();
 console.log(lotrNames);
 
+//concat arrays
+let cats = ['cat1', 'cat2'];
+let dogs = ['dog1', 'dog2'];
+
+let animals = cats.concat(dogs);
+console.log(animals);
+
+let animals2 = dogs.concat(cats);
+console.log(animals2);
+
+//includes
+console.log("is cat1 there: " + cats.includes('cat1'));
+console.log("is cat3 there: " + cats.includes('cat3'));
+
 console.log("Goodbye!");
