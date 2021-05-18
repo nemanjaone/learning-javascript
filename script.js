@@ -18,4 +18,8 @@ else {
     console.log("lmao");
 };
 
+if (1 || 2 === 2) {
+    console.log("logical");
+}
+
 console.log("Goodbye!");

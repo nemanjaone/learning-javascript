@@ -20,3 +20,7 @@ Comparison Operators
 double vs triple equals Operators
 console.log
 how to run js files from html
+
+5/18/21
+Logical Operators
+(&& || !)
