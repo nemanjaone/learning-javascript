@@ -93,5 +93,30 @@ const gameBoard = [['x', 'o', 'x'], ['x', 'o', 'x'], ['x', 'o', 'x']];
 console.log(gameBoard);
 console.log(gameBoard[1][1]);
 
+//object literals
+const fitBitData = {
+    totalSteps: 30000,
+    totalMiles: 210,
+    caloriesBurned: 1500,
+    userName: "Christine",
+};
+
+console.log("Name: " + fitBitData.userName + "");
+console.log("Distance Travelled: " + fitBitData.totalMiles + " miles");
+console.log("Total Calories Burned: " + fitBitData.caloriesBurned + " cal");
+
+//updating information in objects
+const midterms = {
+    Danielle: 91,
+    Anthony: 56,
+    Thomas: 73,
+    Lara: 99,
+};
+
+console.log(midterms);
+midterms.Lara = 50;
+console.log(midterms);
+
+
 
 console.log("Goodbye!");
