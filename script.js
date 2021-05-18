@@ -71,4 +71,12 @@ console.log(animals2);
 console.log("is cat1 there: " + cats.includes('cat1'));
 console.log("is cat3 there: " + cats.includes('cat3'));
 
+//indexof
+console.log("cat2 index: " + cats.indexOf('cat2'));
+
+//reverse array
+lotrNames.reverse();
+console.log(lotrNames);
+
+
 console.log("Goodbye!");
