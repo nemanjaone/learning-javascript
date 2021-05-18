@@ -39,4 +39,22 @@ switch (day) {
 let lottoNumbers = [1, 2, 3, 4, 5, 6];
 console.log(lottoNumbers[4]);
 
+//push pop practice
+let harryNames = ['Harry', 'Hermione', 'Ron', 'Draco'];
+harryNames.push('Bellatrix');
+console.log(harryNames);
+
+harryNames.pop();
+console.log(harryNames);
+
+harryNames.pop();
+console.log(harryNames);
+
+//shift unshift practice
+let lotrNames = ['Frodo', 'Sam', 'Legolas'];
+lotrNames.unshift('Gimli');
+console.log(lotrNames);
+lotrNames.shift();
+console.log(lotrNames);
+
 console.log("Goodbye!");
