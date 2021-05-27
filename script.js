@@ -117,6 +117,16 @@ console.log(midterms);
 midterms.Lara = 50;
 console.log(midterms);
 
+//for loop practice
+console.log("increment");
+for (let i = 0; i <= 20; i += 2) {
+    console.log(i);
+}
 
+//decrement loop practice
+console.log("decrement");
+for (let i = 100; i >= 0; i -= 20) {
+    console.log(i);
+}
 
 console.log("Goodbye!");
