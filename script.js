@@ -129,4 +129,15 @@ for (let i = 100; i >= 0; i -= 20) {
     console.log(i);
 }
 
+//looping over arrays
+const doggo = ['lions', 'tigers', 'bears'];
+
+for (let i = 0; i < doggo.length; i++) {
+    console.log(i, doggo[i]);
+}
+
+for (let i = doggo.length - 1; i >= 0; i--) {
+    console.log(doggo[i]);
+}
+
 console.log("Goodbye!");
