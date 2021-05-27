@@ -135,9 +135,49 @@ const doggo = ['lions', 'tigers', 'bears'];
 for (let i = 0; i < doggo.length; i++) {
     console.log(i, doggo[i]);
 }
-
 for (let i = doggo.length - 1; i >= 0; i--) {
     console.log(doggo[i]);
 }
+
+//nested for loops
+const seatingChart = [
+    ['Kristen', 'Erik', 'Johnny'],
+    ['Jeff', 'Joey', 'Jamaica'],
+    ['Bobert', 'Robert', 'Fofobert']
+]
+
+for (let i = 0; i < seatingChart.length; i++) {
+    let row = seatingChart[i];
+    console.log(`ROW #${i + 1}`);
+    for (let j = 0; j < row.length; j++) {
+        console.log(row[j]);
+    }
+}
+
+//while loop
+let count = 0;
+while (count < 10) {
+    console.log(count);
+    count++;
+}
+
+
+//password-ish loop
+const secret = "hippo";
+let attempts = 1;
+let guess = prompt("enter the secret code...");
+while (guess != secret) {
+    if (attempts == 3) {
+        console.log("you're locked out: too many attempts");
+        break;
+    };
+    guess = prompt("enter the secret code...");
+    attempts++;
+}
+
+if (guess == secret) {
+    console.log("secret accepted");
+};
+
 
 console.log("Goodbye!");
