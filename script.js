@@ -1,20 +1,9 @@
-const fakeRequest = (url) => {
-    return new Promise((resolve, reject) => {
-        const rand = Math.random();
-        setTimeout(() => {
-            if (rand < 0.7) {
-                resolve('Your Fake Data');
-            }
-            reject('Error');
-        }, 1000)
-    })
-}
+const data = `{"ticker":{"base":"BTC","target":"USD","price":"29771.54668105","volume":"31413.67301335","change":"75.51235769"},"timestamp":1652971505,"success":true,"error":""}`
 
-fakeRequest('/dogs/1')
-    .then((data) => {
-        console.log("Done with Request");
-        console.log('data is:', data);
-    })
-    .catch((err) => {
-        console.log("Oh no!", err);
-    });
+const parsedData = JSON.parse(data); //convert JSON to JS object
+
+console.log(parsedData.ticker.price); //BTC price 
+
+const dataStringify = JSON.stringify(parsedData); // convert JS object to JSON
+
+console.log(dataStringify);
